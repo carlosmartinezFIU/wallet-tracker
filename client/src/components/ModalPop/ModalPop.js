@@ -194,7 +194,7 @@ const ModalPop = () => {
     }
 
     const handleNameInput = (e) =>{
-        const onlyAlphabet = e.target.value.replace(/[^A-Za-z]+$/gi, '');
+        const onlyAlphabet = e.target.value.replace(/[^A-Za-z]+$/gi, ' ');
         setNewName(onlyAlphabet);
     }
 
