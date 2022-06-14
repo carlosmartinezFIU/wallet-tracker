@@ -96,3 +96,12 @@ label{
     border-radius: 6px;
     padding: 5px;
 }
+
+.amount-input{
+    width: 183px;
+    height: 34px;
+}
+.name-input{
+    width: 183px;
+    height: 34px;
+}
