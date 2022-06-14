@@ -1,0 +1,41 @@
+.daily-transaction_wrapper{
+    width:  250px;
+    margin: 1rem 0 1rem 0;
+    background: #f9f8fd;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    margin-right: 1rem;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+}
+
+.add-entry-btn{
+    width: 100%;
+    background-color: #0b6623;
+    border: none;
+    height: 32px;
+
+    cursor: pointer;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.title-recent-transaction{
+    text-align: center;
+    font-weight: 600;  
+}
+
+.recent-transaction-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    border: 1px solid black;
+    width: 202px;
+}

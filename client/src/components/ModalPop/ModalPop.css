@@ -1,0 +1,98 @@
+.modal-container{
+    border: 1px solid #5955b3;
+    width: 550px;
+    height: 400px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.date-container-modal, .amount-container-modal, 
+.category-container-modal, .name-container-modal{
+    width: 332px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 28px;
+    color: #5955b3;
+}
+
+.amount-container-modal, .category-container-modal, 
+.name-container-modal{
+    margin-top: 28px;
+}
+
+.form-container{
+    margin-top: 59px;
+}
+
+.modal-overlay{
+    position: fixed; /* Positioning and size */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    z-index: 1;
+}
+
+.btn-container{
+    position: relative;
+    top: 61px;
+    text-align: end;
+}
+
+.save-btn, .close-btn{
+    width: 99px;
+    height: 37px;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.save-btn{
+    background-color: #5955b3;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.close-btn{
+    border: none;
+    background-color: #FDAF75;
+    color: #fff;
+    font-weight: 700;
+}
+
+.date-container-modal{
+    position: relative;
+}
+
+.day-input{
+    width: 20px;
+    position: relative;
+    left: 94px;
+}
+
+.year-input{
+    width: 32px;
+}
+
+.category-container-modal{
+    position: relative;
+}
+
+.dropdown-content{
+    height: 69px;
+    overflow: scroll;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #fff;
+
+    border: 0.5px solid grey;
+    margin-top: 6px;
+    border-radius: 6px;
+    padding: 5px;
+}

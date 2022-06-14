@@ -1,0 +1,65 @@
+.navbar-wrapper{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #5955b3;
+    flex-direction: column;
+    width: 155px;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+    height: 118px;
+    justify-content: space-between;
+    margin-top: 158px;
+}
+
+.dashboard-container{
+    display: flex;
+}
+.dash-logo{
+    filter: invert(100%) sepia(5%) saturate(21%) hue-rotate(91deg) brightness(104%) contrast(108%);
+    width: 28px;
+    height: 28px;
+}
+.transaction-logo{
+    filter: invert(100%) sepia(5%) saturate(21%) hue-rotate(91deg) brightness(104%) contrast(108%);
+    width: 28px;
+    height: 28px;
+}
+
+.home-btn{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    top: -6px;
+    cursor: pointer;
+}
+
+.transaction-btn{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.transaction-btn-contianer{
+    display: flex;
+}
+
+.menu-title{
+    margin-top: 67px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.dashboard-btn-container{
+    text-align: start;
+}

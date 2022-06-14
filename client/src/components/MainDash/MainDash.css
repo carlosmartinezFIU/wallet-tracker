@@ -1,0 +1,11 @@
+.main-dashboard-wrapper{
+    width: auto;
+    margin: 1rem 1rem 1rem 0;
+    background: #f4f8f9;
+    border-radius: 23px;
+    display: flex;
+}
+
+.main-dashboard-container{
+    width: 1004px;
+}

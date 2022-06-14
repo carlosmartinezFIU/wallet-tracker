@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Rubik&display=swap');
+
+.datecard-wrapper{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+.date-title{
+    font-family: 'Macondo', cursive;
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    font-size: 28px;
+    color: #5955b3;
+}
+
+.weekday-title{
+    font-family: 'Macondo', cursive;
+    font-family: 'Rubik', sans-serif;
+}
+
+.date-title-container{
+    margin-top: 16px;
+}

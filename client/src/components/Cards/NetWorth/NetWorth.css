@@ -1,0 +1,10 @@
+.goal-wrapper{
+    width: 200px;
+    height: 150px;
+}
+
+.goal-num{
+    font-size: 34px;
+    margin: 0px;
+    text-align: inherit; 
+}

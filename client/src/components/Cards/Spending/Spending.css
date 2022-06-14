@@ -1,0 +1,18 @@
+.spending-wrapper{
+    width: 200px;
+    height: 150px;
+}
+
+.spending-num{
+    font-size: 34px;
+    margin: 0px;
+    text-align: inherit; 
+}
+
+.income-num{
+    color: green;
+}
+
+.spending-num{
+    color: red;
+}

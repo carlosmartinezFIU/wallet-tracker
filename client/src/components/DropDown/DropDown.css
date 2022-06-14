@@ -1,0 +1,38 @@
+.dropdown-wrapper{
+    position: absolute;
+    left: 140px;
+    z-index: 1;
+}
+
+.dropdown-btn{
+    user-select: none;
+    border: 1px solid grey;
+    width: 91px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    cursor: pointer;
+
+    font-size: 15px;
+    position: relative;
+    border-radius: 6px;
+}
+.dropdown-btn:hover{
+    background-color: #fcfcfc;
+}
+
+.span-container{
+    position: relative;
+    top: 2px;
+}
+
+.dropdown-item{
+    width: 98%;
+    background: #fff;
+    user-select: none;
+    cursor: pointer;
+}
+.dropdown-item:hover{
+    background-color: #f4f4f4;
+}
